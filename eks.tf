@@ -5,9 +5,8 @@ module "eks" {
   cluster_name    = "my-low-cost-cluster"
   cluster_version = "1.30"
 
-  # DISABLE/REMOVE Auto Mode settings
-  # cluster_compute_config = { enabled = true } <-- REMOVE THIS
-  # create_auto_mode_iam_resources = true      <-- REMOVE THIS
+  #Modern EKS clusters (v1.30+) use Access Entries instead of the old aws-auth ConfigMap.
+  # If you didn't explicitly tell EKS to trust the creator, 
     authentication_mode                         = "API_AND_CONFIG_MAP"
   enable_cluster_creator_admin_permissions = true
 
