@@ -1,0 +1,4 @@
+This automates creation of EKS.
+Prerequsites:
+You must have configure aws crediantails
+You must have kubectl installed.
