@@ -1,11 +1,10 @@
 # GitHub Copilot instructions
 
-
 <!-- github-copilot-toolbox:mcp-skills-awareness-begin -->
 
 ### MCP & Skills awareness (GitHub Copilot Toolbox)
 
-_Last synced: 2026-04-24T08:53:22.221Z._
+_Last synced: 2026-04-24T09:07:55.237Z._
 
 - **Full report:** `.github/copilot-toolbox-mcp-skills-awareness.md` in this workspace (auto-overwritten on each scan). Use it as ground truth for configured servers and skill folders.
 - **MCP:** For **live tools**, use **Copilot Chat → Agent** and **trust/start** the right servers in the MCP UI.
@@ -14,7 +13,7 @@ _Last synced: 2026-04-24T08:53:22.221Z._
 
 #### Workspace MCP
 
-- `/root/kubernetes/.vscode/mcp.json` _(workspace: kubernetes)_ — _file missing_
+- `/root/kubernetes/Docker/.vscode/mcp.json` _(workspace: Docker)_ — _file missing_
 
 _No active workspace servers in mcp.json._
 

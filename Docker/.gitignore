@@ -1,0 +1,5 @@
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+aws_creds
